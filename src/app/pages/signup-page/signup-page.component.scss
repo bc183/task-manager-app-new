@@ -1,0 +1,23 @@
+.centered-content {
+    margin: 150px;
+}
+
+@media (max-width: 750px) {
+    .centered-content {
+        width: fit-content;
+        margin: 50px;
+    }
+    .white-box {
+        width: fit-content;
+    }
+}
+
+@media (min-width: 751) and (max-width: 768px) {
+    .centered-content {
+        width: fit-content;
+        margin: 150px;
+    }
+    .white-box {
+        width: fit-content;
+    }
+}
